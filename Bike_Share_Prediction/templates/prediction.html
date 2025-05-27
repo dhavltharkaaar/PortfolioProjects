@@ -1,0 +1,147 @@
+<html>
+<head>
+<title> Prediction. </title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/prediction.css') }}">   
+</head>
+<body>
+  <div class="container">
+<center>
+ <h1>Bike Share Prediction Project</h1>
+ <p>Fill the form for prediction</p>
+ <br>
+<h2><b>{{prediction_text}}</b>
+</h2>
+</center>
+ <a class="btn" href="./" role="button">Back</a><br><br>
+<form action='/predict' method='POST'>
+<div class="select-box">
+  <label class="label"> season</label><br>
+  <select class="form-select" id="season" name="season", style="width: 1500px;">
+  <option selected>-- select season --</option>
+  <option value="1">Winter</option>
+  <option value="2">Spring</option>
+ <option value="3">Summer</option>
+  <option value="4">Fall</option>
+</select>
+</div>
+
+<div class="select-box">
+  <label class="label"> Month</label><br>
+  <select class="form-select" id="month" name="month", style="width: 1500px;">
+  <option selected>-- select month --</option>
+  <option value="1">January</option>
+  <option value="2">February</option>
+ <option value="3">March</option>
+  <option value="4">April</option>
+ <option value="5">May</option>
+  <option value="6">June</option>
+ <option value="7">July</option>
+  <option value="8">August</option>
+ <option value="9">September</option>
+  <option value="10">October</option>
+<option value="11">November</option>
+  <option value="12">December</option>
+</select>
+</div>
+
+<div class="select-box">
+  <label  class="label">Hour</label><br>
+  <select class="form-select" id="hr" name="hr" , style="width:1500px;">
+  <option selected>-- select hour --</option>
+  <option value="0">1</option>
+  <option value="1">2</option>
+  <option value="2">3</option>
+  <option value="3">4</option>
+   <option value="4">5</option>
+  <option value="5">6</option>
+  <option value="6">7</option>
+  <option value="7">8</option>
+   <option value="8">9</option>
+  <option value="9">10</option>
+  <option value="10">11</option>
+  <option value="11">12</option>
+  <option value="12">13</option>
+  <option value="13">14</option>
+  <option value="14">15</option>
+  <option value="15">16</option>
+   <option value="16">17</option>
+  <option value="17">18</option>
+  <option value="18">19</option>
+  <option value="19">20</option>
+   <option value="20">21</option>
+  <option value="21">22</option>
+  <option value="22">23</option>
+  <option value="23">24</option>
+</select>
+</div>
+<div class="select-box">
+  <label  class="label">Holiday</label><br>
+  <select class="form-select" id="holiday" name="holiday" , style="width:1500px;">
+  <option selected>-- select Holiday --</option>
+  <option value="0">Not Holiday</option>
+  <option value="1">Holiday</option>
+</select>
+</div>
+<div class="select-box">
+  <label  class="label">Weekday</label><br>
+  <select class="form-select" id="weekday" name="weekday" , style="width:1500px;">
+  <option selected>-- select  Weekday--</option>
+  <option value="0">Sunday</option>
+  <option value="1">Monday</option>
+ <option value="2">Tuesday</option>
+  <option value="3">Wednesday</option>
+ <option value="4">Thursday</option>
+  <option value="5">Friday</option>
+ <option value="6">Saturday</option>
+</select>
+</div>
+<div class="select-box">
+  <label  class="label">Workingday</label><br>
+  <select class="form-select" id="workingday" name="workingday" , style="width:1500px;">
+  <option selected>-- select Workingday --</option>
+  <option value="0">Not Working</option>
+  <option value="1">Working</option>
+</select>
+</div>
+<div class="select-box">
+  <label  class="label">weather_condition</label><br>
+  <select class="form-select" id="weather_condition" name="weather_condition" , style="width:1500px;">
+  <option selected>-- select Weather_condition --</option>
+  <option value="1">Clear</option>
+  <option value="2">Mist</option>
+  <option value="3">Light Rain</option>
+  <option value="4">Heavy Rain</option>
+</select>
+</div>
+<div class="select-box">
+  <label  class="label">Enter Temperature in Celsius</label><br>
+  <input type="text" class="form-control" id="temp" name="temp" placeholder="temp", style="width:1500px;">
+</div>
+<div class="select-box">
+  <label  class="label">Enter Temperature Feeling in Celsius</label><br>
+  <input type="text" class="form-control" id="atemp" name="atemp" placeholder="atemp", style="width:1500px;">
+</div>
+<div class="select-box">
+  <label  class="label">Enter Humidity</label><br>
+  <input type="text" class="form-control" id="humidity" name="humidity" placeholder="humidity", style="width:1500px;">
+</div>
+<div class="select-box">
+  <label  class="label">Enter Wind_Speed</label><br>
+  <input type="text" class="form-control" id="windspeed" name="windspeed" placeholder="windspeed", style="width:1500px;">
+</div>
+<div class="select-box">
+  <label  class="label">Enter Casual Users Id</label><br>
+  <input type="text" class="form-control" id="casual" name="casual" placeholder="casual", style="width:1500px;">
+</div>
+<div class="select-box">
+  <label  class="label">Enter Registered Users Id</label><br>
+  <input type="text" class="form-control" id="registered" name="registered" placeholder="registered", style="width:1500px;">
+</div>
+
+
+    <button type="submit" class="btn">Predict</button>
+    </form>
+
+</div>
+</body>
+</html>
