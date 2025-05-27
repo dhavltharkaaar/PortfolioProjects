@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Contact Form</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}">  
+   </head>
+  <body>
+<br>
+<br>
+<br>
+	<center><h1>{{success}}</h1></center>
+<br>
+<br>
+<a class="btn" href="./">Back</a>
+<div class="Form">
+<center> <h1><strong>Contact to Online Bike Share Service Provider Center</strong></h1></center>
+<br>
+<div class="input_field">
+  <label class="label"> Enter Full Name: </label><br>
+<input type="text" class="form-control" placeholder="Name" id="name", style="width: 1000px;">
+</div>
+<div class="input_field">
+  <label class="label"> Enter Subject: </label><br>
+<input type="text" class="form-control" placeholder="Subject" id="subject", style="width: 1000px;">
+</div>
+<div class="input_field">
+  <label class="label"> Enter Phone Number: </label><br>
+<input type="text"class="form-control"  placeholder="Phone" id="phone", style="width: 1000px;">
+</div>
+ <div class="input_field">
+  <label class="label"> Enter Email Id: </label><br>
+ <input type="text"class="form-control"  placeholder="Email" id="email", style="width: 1000px;">
+ </div>
+ <div class="input_field">
+  <label class="label"> Enter Message: </label><br>
+ <textarea class="form-area" placeholder="Message" id="message", style="width: 1000px;"></textarea>
+ </div>
+<center>
+ <div class="btn">
+ <a class="btn" href="./">Send Contact Details</a>
+ </div>   
+</center< 
+ </div>    
+</body>
+</html>
