@@ -133,7 +133,7 @@ $ pip install -U Flask
 <img src ="https://github.com/dhavltharkaaar/PortfolioProjects/tree/main/Bike_Share_Prediction/markdown/home.png">
 
 # About Page
-<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/tree/main/Bike_Share_Prediction/markdown/about.png">
+<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/blob/main/Bike_Share_Prediction/markdown/about.png">
 
 # Prediction Page
 <img src ="https://github.com/dhavltharkaaar/PortfolioProjects/tree/main/Bike_Share_Prediction/markdown/prediction1.png">
