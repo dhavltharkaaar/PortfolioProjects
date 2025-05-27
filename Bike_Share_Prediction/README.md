@@ -130,15 +130,15 @@ $ pip install -U Flask
 # Screenshots
 
 # Home Page
-<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/tree/main/Bike_Share_Prediction/markdown/home.png">
+<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/blob/main/Bike_Share_Prediction/markdown/home.png">
 
 # About Page
 <img src ="https://github.com/dhavltharkaaar/PortfolioProjects/blob/main/Bike_Share_Prediction/markdown/about.png">
 
 # Prediction Page
-<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/tree/main/Bike_Share_Prediction/markdown/prediction1.png">
-<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/tree/main/Bike_Share_Prediction/markdown/prediction2.png">
+<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/blob/main/Bike_Share_Prediction/markdown/prediction1.png">
+<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/blob/main/Bike_Share_Prediction/markdown/prediction2.png">
 
 # Contact Page
-<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/tree/main/Bike_Share_Prediction/markdown/contact.png">
-<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/tree/main/Bike_Share_Prediction/markdown/contact2.png">
+<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/blob/main/Bike_Share_Prediction/markdown/contact.png">
+<img src ="https://github.com/dhavltharkaaar/PortfolioProjects/blob/main/Bike_Share_Prediction/markdown/contact2.png">
