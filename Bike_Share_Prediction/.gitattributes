@@ -1,5 +1,5 @@
 * text=auto
-*.html linguist-detectable=false
-*.css linguist-detectable=false
+*.html linguist-detectable=true
+*.css linguist-detectable=true
 *.ipynb linguist-detectable=false
 Procfile linguist-detectable=false
