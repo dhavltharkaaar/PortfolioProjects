@@ -1,3 +1,19 @@
+# Progeramming  Languages used for this project
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+
+# Front End Development
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+
+# Libraries used for this project
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+
+# Platform Used:
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![Spyder](https://img.shields.io/badge/Spyder-FF0000?logo=spyderide&logoColor=white)
+
 # Cars24.com Scraper
 
 This repository contains a Selenium web scraper for extracting data from cars24.com, a popular online platform for buying and selling used cars. The scraper retrieves information about different types of used Cars such as sedans, SUVs, hatchbacks, luxury SUVs, and luxury sedans. The extracted data includes details like car name, distance already travelled, year bought, number of previous owners, RTO location, transmission type, car type, type of fuel used, and price.
