@@ -54,7 +54,7 @@ Price: Price of the ticket.
 |   Duration         |  object       |
 |   Total_Stops      |  object       |
 |   Additional_Info  |  object       |
+|   Price            |  int64        |
 
 To Download the Dataset the link is given below
 <a href="https://www.kaggle.com/datasets/nikhilmittal/flight-fare-prediction-mh/data"> Dataset Link </a>
-|   Price            |  int64        |
